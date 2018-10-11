@@ -1,0 +1,32 @@
+@media screen and (max-width: 860px){
+  .description{
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px){
+  .description{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 12px;
+  }
+  h2{
+    margin-top: -2px;
+    text-align: center;
+  }
+  .header__logo{
+    height: 50px;
+    margin-top: 20px;
+  }
+  .snippet{
+    flex-wrap: wrap;
+  }
+  #catalog, #food, #jewelry{
+    width: 80%;
+    margin: auto;
+  }
+}
